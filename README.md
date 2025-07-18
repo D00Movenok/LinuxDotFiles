@@ -8,5 +8,5 @@
     bash install.sh
     ```
 
-2. Reboot
-3. Set `MesloLGS NF` font in terminal settings
+2. Change `C-b` to `C-a` in `tmux.conf` if installed on desktop
+3. Reboot

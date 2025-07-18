@@ -1,9 +1,11 @@
 #!/bin/bash
 
 # apt
+sudo apt install -y ansifilter
 sudo apt install -y bat
 sudo apt install -y flameshot
 sudo apt install -y fzf
+sudo apt install -y git
 sudo apt install -y jq
 sudo apt install -y ncdu
 sudo apt install -y net-tools
@@ -12,6 +14,7 @@ sudo apt install -y ripgrep
 sudo apt install -y tree
 sudo apt install -y virtualbox
 sudo apt install -y xclip
+sudo apt install -y 7zip 7zip-rar
 
 sudo apt install -y fonts-firacode
 
@@ -33,6 +36,7 @@ sudo snap set system refresh.retain=2
 sudo snap install brave
 sudo snap install code --classic
 sudo snap install discord
+sudo snap connect discord:system-observe
 sudo snap install keepassxc
 sudo snap install obs-studio
 sudo snap install remmina

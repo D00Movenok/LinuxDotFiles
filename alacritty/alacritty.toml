@@ -1,0 +1,50 @@
+[general]
+# disable acceess to terminal over ipc
+ipc_socket = false
+
+# graphical theme
+import = [
+    "~/.config/alacritty/themes/themes/dark_plus.toml"
+]
+
+[window]
+# new terminal window opens full-sized
+startup_mode = "Maximized"
+
+# padding in terminal (just looks bnetter with it)
+padding.x = 5
+padding.y = 5
+
+# transparent window
+decorations = "Transparent"
+opacity = 0.75
+blur = true
+
+[scrolling]
+# maximum history size
+history = 100000
+# scrolled lines per scroll
+multiplier = 5
+
+[font]
+# font for powerlevel10k
+normal.family = "MesloLGS NF"
+bold.family = "MesloLGS NF"
+italic.family = "MesloLGS NF"
+bold_italic.family = "MesloLGS NF"
+
+# use default ligatures for boxes
+builtin_box_drawing = false
+
+# font size
+size = 12
+
+[cursor]
+# blinking "line" cursor 
+style.shape = "Beam"
+style.blinking = "Always"
+
+[terminal]
+# allows copying from tmux in tmux on server to desktop
+# using osc52
+osc52 = "onlycopy"
