@@ -17,7 +17,7 @@ padding.y = 5
 
 # transparent window
 decorations = "Transparent"
-opacity = 0.75
+opacity = 0.9
 blur = true
 
 [scrolling]
