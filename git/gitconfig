@@ -1,6 +1,7 @@
 [user]
     name = D00Movenok
     email = egor.gennadjev@yandex.ru
+    signingkey = egor.gennadjev@yandex.ru
 
 [credential]
     helper = cache
@@ -9,6 +10,12 @@
     editor = code -w
     autocrlf = input
     pager = delta  # delta
+
+[commit]
+    gpgsign = true
+
+[tag]
+    gpgsign = true
 
 [pull]
     rebase = false
