@@ -1,0 +1,3 @@
+# use system binaries as defaults
+nodejs system
+python system

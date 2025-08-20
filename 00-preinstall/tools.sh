@@ -2,21 +2,26 @@
 
 # apt
 sudo apt install -y ansifilter
+sudo apt install -i aria2
 sudo apt install -y bat
 sudo apt install -y flameshot
 sudo apt install -y fzf
 sudo apt install -y git
 sudo apt install -y jq
+sudo apt install -y lsd
 sudo apt install -y ncdu
 sudo apt install -y net-tools
 sudo apt install -y plocate
 sudo apt install -y ripgrep
 sudo apt install -y tree
-sudo apt install -y virtualbox
 sudo apt install -y xclip
 sudo apt install -y 7zip 7zip-rar
 
 sudo apt install -y fonts-firacode
+
+# install vbox and add to vboxusers to interact with usb devices
+sudo apt install -y virtualbox
+sudo usermod -a -G vboxusers $USER
 
 # snap
 sudo apt install -y snapd

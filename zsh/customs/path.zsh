@@ -6,3 +6,6 @@ export PATH="$PATH:$HOME/go/bin"
 
 # snap
 export PATH="$PATH:/snap/bin"
+
+# asdf
+export PATH="$HOME/.asdf/shims:$PATH"

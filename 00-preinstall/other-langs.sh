@@ -1,5 +1,8 @@
 #!/bin/bash
 
-# Install stable Rust version
+# node
+sudo apt install -y nodejs
+
+# rust
 sudo apt install -y rustup
 rustup default stable
