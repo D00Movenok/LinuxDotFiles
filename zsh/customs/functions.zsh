@@ -82,6 +82,12 @@ update-system() {
         pipx upgrade-all
     fi
 
+    if command -v pnpm >/dev/null 2>&1; then
+        echo "Updating pnpm packages..."
+        pnpm self-update
+        pnpm update --global
+    fi
+
     if command -v gup >/dev/null 2>&1; then
         echo "Updating go packages..."
         # -j 2 bypasses golang proxy time limits

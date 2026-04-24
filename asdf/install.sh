@@ -8,12 +8,7 @@ go install github.com/asdf-vm/asdf/cmd/asdf@latest
 asdf plugin add nodejs
 asdf plugin add python
 asdf plugin add php
-
-# TODO: replace with just php when
-# https://github.com/asdf-community/asdf-php/pull/172
-# will be merged
-asdf plugin add php https://github.com/pmysiak/asdf-php
-asdf plugin update php patch-1
+asdf plugin add golang
 
 # python dependencies
 # https://github.com/pyenv/pyenv/wiki#suggested-build-environment
@@ -29,3 +24,6 @@ ln -sv ${script_dir}/tool-versions ${HOME}/.tool-versions
 # install config
 rm ${HOME}/.asdfrc
 ln -sv ${script_dir}/asdfrc ${HOME}/.asdfrc
+
+# reshim
+asdf reshim

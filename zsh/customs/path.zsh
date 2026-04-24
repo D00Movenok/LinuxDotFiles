@@ -9,3 +9,7 @@ export PATH="$PATH:/snap/bin"
 
 # asdf
 export PATH="$HOME/.asdf/shims:$PATH"
+
+# pnpm
+export PNPM_HOME="$HOME/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
