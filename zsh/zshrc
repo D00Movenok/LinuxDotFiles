@@ -33,6 +33,7 @@ HIST_STAMPS="%d/%m/%Y %H:%M:%S"
 
 # Plugins
 plugins=(
+    direnv
     fzf
     ssh-agent
     sudo

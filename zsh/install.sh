@@ -8,6 +8,7 @@ sudo apt install -y zsh
 export CHSH=no
 export RUNZSH=no
 export ZSH=${script_dir}/oh-my-zsh/
+rm -rf $ZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 rm -rf ${HOME}/.oh-my-zsh
 ln -sv ${script_dir}/oh-my-zsh ${HOME}/.oh-my-zsh
